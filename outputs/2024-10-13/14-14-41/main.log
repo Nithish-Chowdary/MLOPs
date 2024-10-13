@@ -1,0 +1,7 @@
+[2024-10-13 14:14:41,573][MLOPsProjectLogger][INFO] - Data Ingestion Stage started
+[2024-10-13 14:14:41,573][MLOPsProjectLogger][INFO] - created directory at: artifacts
+[2024-10-13 14:14:41,573][MLOPsProjectLogger][INFO] - created directory at: artifacts/data_ingestion
+[2024-10-13 14:14:42,214][MLOPsProjectLogger][INFO] - ('artifacts/data_ingestion/data.zip', <http.client.HTTPMessage object at 0x12c3fd9a0>) is downloaded from the url:https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip
+[2024-10-13 14:14:42,215][MLOPsProjectLogger][INFO] - Data File already exists at path:artifacts/data_ingestion/data.zip and file size is:~ 23 KB
+[2024-10-13 14:14:42,217][MLOPsProjectLogger][INFO] - The zip file is extracted successfully to path: artifacts/data_ingestion
+[2024-10-13 14:14:42,217][MLOPsProjectLogger][INFO] - Data Ingestion Completed Successfully

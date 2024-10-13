@@ -1,0 +1,10 @@
+[2024-10-13 14:41:53,631][MLOPsProjectLogger][INFO] - Data Ingestion Stage started
+[2024-10-13 14:41:53,634][MLOPsProjectLogger][INFO] - created directory at: artifacts
+[2024-10-13 14:41:53,634][MLOPsProjectLogger][INFO] - created directory at: artifacts/data_ingestion
+[2024-10-13 14:41:53,634][MLOPsProjectLogger][INFO] - Data File already exists at path:artifacts/data_ingestion/data.zip and file size is:~ 23 KB
+[2024-10-13 14:41:53,635][MLOPsProjectLogger][INFO] - The zip file is extracted successfully to path: artifacts/data_ingestion
+[2024-10-13 14:41:53,635][MLOPsProjectLogger][INFO] - Data Ingestion Completed Successfully
+[2024-10-13 14:41:53,635][MLOPsProjectLogger][INFO] - Data Validation Stage Started
+[2024-10-13 14:41:53,638][MLOPsProjectLogger][INFO] - created directory at: artifacts
+[2024-10-13 14:41:53,639][MLOPsProjectLogger][INFO] - created directory at: artifacts/data_validation
+[2024-10-13 14:41:53,644][MLOPsProjectLogger][INFO] - Data Validation Stage Ended
