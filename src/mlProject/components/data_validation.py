@@ -1,11 +1,5 @@
 from src.mlProject.entity.config_entity import DataValidationConfig
-from pathlib import Path
-import os
 import pandas as pd
-from urllib.request import urlretrieve
-import zipfile
-from src.mlProject import logger
-from src.mlProject.utils.common import get_size
 
 
 class DataValidation:
