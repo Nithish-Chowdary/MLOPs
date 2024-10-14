@@ -1,0 +1,25 @@
+[2024-10-14 17:50:24,987][MLOPsProjectLogger][INFO] - Data Ingestion Stage started
+[2024-10-14 17:50:24,989][MLOPsProjectLogger][INFO] - created directory at: artifacts
+[2024-10-14 17:50:24,989][MLOPsProjectLogger][INFO] - created directory at: artifacts/data_ingestion
+[2024-10-14 17:50:24,989][MLOPsProjectLogger][INFO] - Data File already exists at path:artifacts/data_ingestion/data.zip and file size is:~ 23 KB
+[2024-10-14 17:50:24,991][MLOPsProjectLogger][INFO] - The zip file is extracted successfully to path: artifacts/data_ingestion
+[2024-10-14 17:50:24,991][MLOPsProjectLogger][INFO] - Data Ingestion Completed Successfully
+[2024-10-14 17:50:24,991][MLOPsProjectLogger][INFO] - Data Validation Stage Started
+[2024-10-14 17:50:24,993][MLOPsProjectLogger][INFO] - created directory at: artifacts
+[2024-10-14 17:50:24,993][MLOPsProjectLogger][INFO] - created directory at: artifacts/data_validation
+[2024-10-14 17:50:24,999][MLOPsProjectLogger][INFO] - Data Validation Stage Ended
+[2024-10-14 17:50:24,999][MLOPsProjectLogger][INFO] - Data Tranfromation Stage had started
+[2024-10-14 17:50:25,002][MLOPsProjectLogger][INFO] - created directory at: artifacts
+[2024-10-14 17:50:25,002][MLOPsProjectLogger][INFO] - created directory at: artifacts/data_transformation
+[2024-10-14 17:50:25,018][MLOPsProjectLogger][INFO] - Data has been splitted into Train and Test sets
+[2024-10-14 17:50:25,018][MLOPsProjectLogger][INFO] - (1279, 12)
+[2024-10-14 17:50:25,019][MLOPsProjectLogger][INFO] - (320, 12)
+[2024-10-14 17:50:25,019][MLOPsProjectLogger][INFO] - Data Tranformation Stage has Ended
+[2024-10-14 17:50:25,019][MLOPsProjectLogger][INFO] - Model Training Stage has Started
+[2024-10-14 17:50:25,021][MLOPsProjectLogger][INFO] - created directory at: artifacts
+[2024-10-14 17:50:25,021][MLOPsProjectLogger][INFO] - created directory at: artifacts/model_trainer
+[2024-10-14 17:50:25,021][MLOPsProjectLogger][INFO] - Train and Test Data split into Inputs and Outputs Respectively
+[2024-10-14 17:50:25,025][MLOPsProjectLogger][INFO] - ElasticNet Model is being fitted onto Train Dataset
+[2024-10-14 17:50:25,035][MLOPsProjectLogger][INFO] - Model has been successfully fitted and dumped at:artifacts/model_trainer/model.joblib
+[2024-10-14 17:50:25,035][MLOPsProjectLogger][INFO] - Model Training Stage has Ended
+[2024-10-14 17:50:25,035][MLOPsProjectLogger][INFO] - Trained Model is being laoded to perform Evaluation on Test Data
